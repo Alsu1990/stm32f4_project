@@ -6,9 +6,9 @@ set(CMAKE_SYSTEM_PROCESSOR ARM)
 set(CMAKE_C_COMPILER arm-none-eabi-gcc)
 set(CMAKE_CXX_COMPILER arm-none-eabi-g++)
 set(CMAKE_ASM_COMPILER arm-none-eabi-as)
+set(CMAKE_OBJCOPY arm-none-eabi-objcopy)
+set(CMAKE_SIZE arm-none-eabi-size)
 
-# Specify the path to the STM32 headers and libraries
-set(CMAKE_FIND_ROOT_PATH /path/to/STM32/headers /path/to/STM32/libraries)
 
 # Search for programs in the host environment
 set(CMAKE_FIND_ROOT_PATH_MODE_PROGRAM NEVER)
